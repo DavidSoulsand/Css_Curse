@@ -1,0 +1,36 @@
+*{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+}
+.flex-container{
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+
+}
+
+.flex-item{
+	background: #248;
+	color: #fff;
+	min-width: 150px;
+	text-align: center;
+	height: 100px;
+	width: 300px;
+	flex: 1;
+
+	
+
+
+}
+.orange{
+	background: orange;
+	flex: 1 0 350;
+	order: 4;
+}
+.blue{
+	order: 3;
+}
+.green{
+	background: green;
+		
+}
