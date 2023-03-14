@@ -1,0 +1,43 @@
+*{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+}
+.container{
+	
+	background: #86f;
+	padding: 20px 5px;
+	
+
+}
+
+.caja{
+	background: #025;
+	height: 80px;
+	width: 80px;
+	margin: 20px;
+	position: relative;
+	animation-name: desplazarse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+	animation-timing-function: cubic-bezier(.09,1.7,.74,.43);
+}
+@keyframes desplazarse{
+	0%{
+		left: 0;
+		background:orange ;
+
+	}
+	50%{
+		background: purple;
+
+
+	}
+	100%{
+		left:80%;
+		background: red;
+	}
+
+}

@@ -1,41 +1,17 @@
 *{
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 400;
+	scroll-behavior: smooth;
 }
 .container{
+padding: 20px;
+background: orange;
+font-size: 20px;
+letter-spacing: 2px;
+}
+#container{
+	background: red;
+	user-select: none;
+	max-zoom: inherit;
 
-	background: #86f;
-	padding: 20px 5px;
-	
-
-}
-.caja{
-	background: #025;
-	height: 100px;
-	width: 100px;
-	transition-property: left;
-	transition-duration: 1s;
-	margin: 30px ;
-	position: relative;
-	left: 0;
-
-}
-.container:hover > .caja{
-	left: 80%;
-}
-.caja:first-child{
-	transition-timing-function: linear;
-
-}
-.caja:nth-child(2){
-transition-timing-function: ease;
-}
-.caja:nth-child(3){
-	transition-timing-function: ease-in;
-}
-.caja:nth-child(4){
-	transition-timing-function: ease-out;
-}
-.caja:nth-child(5){
-	transition-timing-function: ease-in-out;
 }

@@ -1,0 +1,17 @@
+*{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+}
+.container{
+	
+	background: #86f;
+	padding: 20px 5px;
+	border: 2px solid red;
+	background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.wallpapers13.com%2Fwp-content%2Fuploads%2F2016%2F10%2FBeautiful-Costa-Rica-Falls-river-jungle-lush-green-vegetation-fern-green-moss-rocks-trees-stones-HD-Wallpaper-for-Desktop-3840x2400-1600x1200.jpg&f=1&nofb=1&ipt=a5e876876f5ef3f7459c88aa2d1477181507d6b44e033ce6b88794fead4e8801&ipo=images);
+	width: 400px;
+	height: 400px;
+	margin: 40px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-clip: padding-box;
+}

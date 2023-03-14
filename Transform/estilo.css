@@ -1,0 +1,29 @@
+*{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+}
+.container{
+	
+	background: #86f;
+	padding: 20px 5px;
+}
+
+.caja{
+	background: #025;
+	height: 80px;
+	width: 80px;
+	margin: 20px;
+	display: flex;
+	color: #fff;
+	transition: transform 1s;
+	transform: translate(10px);
+	
+	
+}
+.caja:hover{
+	
+}	
+
+b{
+	margin: auto;
+}
